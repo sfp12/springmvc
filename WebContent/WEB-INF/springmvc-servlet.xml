@@ -14,7 +14,6 @@
 	<context:component-scan base-package="zttc.itat.controller" />
 	<mvc:annotation-driven />
 	
-	<bean name="/welcome.html" class="zttc.itat.controller.WelcomeController"></bean>        
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/jsp/"></property>
 		<property name="suffix" value=".jsp"></property>
